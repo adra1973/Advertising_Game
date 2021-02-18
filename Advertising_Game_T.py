@@ -110,11 +110,11 @@ pg=0.4 # pg is the value of probability for the Binomial Distribution for Firm 2
 si=1.0 # Initial State
 sf=0.0 # Final State
 
-nf=10   #Number of values taken for de random variable for firm 1
+nf=10   #Number of values taken for de random variable for Firm 1
 fi=0.95 # Initial value
 ff=1.05 # Final value
 
-ng=10 #Number of values taken for de random variable for firm 1
+ng=10 #Number of values taken for de random variable for Firm 2
 gi=0.95 # Initial value
 gf=1.05 # Final value
 ###############################################################################
@@ -198,18 +198,6 @@ while t<ntry: # "ntry" number of trajectories, each one for a fixed Omega,
 
 
     t+=1                     
-
-
-   #PF1[l,nest,t] and PG1[l,nest,t] correspond to calculate of Probabilities for Binomial Distribution in Full-Information case
- 
-for l in range(nf):
-    PF1[l,nest,t]=(math.factorial(nf-1)/(math.factorial(nf-1-l)* \
-         math.factorial(l)))*(pf**l)*((1-pf)**(nf-1-l)) 
-
-for l in range(ng):
-    PG1[l,nest,t]=(math.factorial(ng-1)/(math.factorial(ng-1-l)* \
-         math.factorial(l)))*(pg**l)*((1-pg)**(ng-1-l))    
-
 
 
 # The function tran16(A,B,S1,F,G,PF,PG,ns,nf,ng,k,h) calculates all transition matrices
