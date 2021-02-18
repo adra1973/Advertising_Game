@@ -1,12 +1,12 @@
 # Advertising_Game
 
 
-Program developed for calculation of a Nash Equilibrium in a Stochastic Dynamic Game
+Program developed for calculation of a Nash Equilibrium in a Stochastic Dynamic Game of Advertising in order to get market share.
 
 ## Remark:
 
 This program is used for the numerical calculation of the paper:
-[1] Alan D. Robles-Aguilar, David González-Sánchez and J. Adolfo Minjárez-Sosa (2021) Estimation of equilibria in an advertising game with unknow distribution of the response to advertising efforts. (Submited for publication).
+[1] Alan D. Robles-Aguilar, David González-Sánchez and J. Adolfo Minjárez-Sosa (2021). Estimation of equilibria in an advertising game with unknow distribution of the response to advertising efforts. (Submited for publication).
 
 ### Description:
 This program provides a computational algorithm to approximate Nash equilibria for a stochastic finite version of a game of advertising to get market share amog two firms in the settings of paper [1]. In perticular the random disturbances are assumed with Binomial distributions for each firm.
