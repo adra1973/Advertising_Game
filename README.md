@@ -9,8 +9,8 @@ This program is used for the numerical calculation of the paper:
 [1] Alan D. Robles-Aguilar, David González-Sánchez and J. Adolfo Minjárez-Sosa (2021). *Estimation of equilibria in an advertising game with unknow distribution of the response to advertising efforts*. (Submited for publication).
 
 ### Description:
-This program provides a computational algorithm to approximate Nash equilibria for a stochastic finite version of a game of advertising to get market share amog two firms in the settings of paper [1]. In perticular the random disturbances are assumed with Binomial distributions for each firm.
-In the first case, in order to simplify the calculations, the action sets for both players are equal. Thus, we have a game where the equilibrium strategy for players produce a “mirror” effect.
+This program provides a computational algorithm to approximate Nash equilibria for a stochastic finite version of a game of advertising to get market share among two firms in the settings of paper [1]. In particular the random disturbances are assumed with Binomial distributions for each firm.
+In the first case, in order to simplify the calculations, the action sets for both firms are equal. Thus, we have a game where the equilibrium strategy for players produce a “mirror” effect.
 
 The Nash equilibria are calculated with a procedure that involves the McKelvey formula and the empirical distribution as an estimator of the Binomial distribution.
 Specifically, the program provides equilibrium strategies in the full-information game, as well as equilibrium strategies for some simulated empirical games, both in the set of mixed strategies.
